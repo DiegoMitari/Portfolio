@@ -143,6 +143,7 @@ img {
     font-weight: var(--font-semi);
 }
 
+
 @media screen and (max-width: 768px) {
     .nav__menu {
         position: fixed;
@@ -562,5 +563,16 @@ img {
         display: initial;
         right: 10%;
         bottom: 45%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .skills-name {
+        margin: var(--mb-1);
+    }
+
+    .button {
+        padding: 0.75rem 2rem;
+        margin-bottom: 0.5rem;
     }
 }
