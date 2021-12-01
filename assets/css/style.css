@@ -18,7 +18,7 @@
      --normal-font-size: 1.2rem;
 
     /* Margins */
-    
+    --mb-0: 0.2rem;
     --mb-1: 0.5rem;
     --mb-2: 1rem;
     --mb-3: 1.5rem;
@@ -568,7 +568,8 @@ img {
 
 @media screen and (max-width: 400px) {
     .skills-name {
-        margin: var(--mb-1);
+        margin: var(--mb-0);
+        padding: 0.3rem 0.25rem;
     }
 
     .button {
