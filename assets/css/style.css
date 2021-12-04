@@ -401,6 +401,16 @@ img {
     width: 100%;
 }
 
+
+.portfolio__link-name {
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+
+.portfolio__link-name i {
+    margin: 0px 0.75rem;
+}
+
 .portfolio__link {
     position: absolute;
     bottom: -100%;
