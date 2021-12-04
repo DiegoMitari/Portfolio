@@ -417,9 +417,6 @@ img {
 
 }
 
-.work__img img:hover {
-    transform: scale(1.2);
-}
 
 .work__img:hover .portfolio__link {
     bottom: 0;
