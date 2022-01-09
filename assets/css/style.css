@@ -485,6 +485,14 @@ img {
     margin: 0 var(--mb-2);
 }
 
+.contact__container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
 /* Media Queries */
 
 
@@ -577,10 +585,7 @@ img {
         width: 360px;
     }
 
-    .contact__container {
-        justify-items: center;
-        /* importante para centrar divs */
-    }
+   
 }
 
 @media screen and (min-width: 1024px) {
