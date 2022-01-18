@@ -497,6 +497,17 @@ img {
     
 }
 
+.contact__item {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__item h3 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Media Queries */
 
 
