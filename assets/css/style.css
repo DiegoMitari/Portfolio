@@ -331,10 +331,16 @@ img {
     /* line-height: 2rem; */
     display: inline;
 }
-.skills-name:hover {
-    /* background-color: var(--first-color-hover); */
+
+.bx {
+    transition: 300ms all ease-in;
+}
+
+.skills-name .bx:hover {
     color: var(--first-color);
-    box-shadow: 0 3px 10px rgb(128 128 128 / 70%);
+    transform: scale(1.15);
+    filter: drop-shadow(1px 1px 1px rgb(97, 95, 95));
+    transition: 300ms all;
 }
 
 .skills__container {
@@ -503,7 +509,7 @@ img {
     flex-direction: column;
 }
 
-.contact__item h3 {
+ .contact__item > h3 {
     margin-left: auto;
     margin-right: auto;
 }
